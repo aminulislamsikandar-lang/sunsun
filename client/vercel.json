@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://sunshine-school-api.onrender.com/api/:path*" },
+    { "source": "/api/:path*", "destination": "https://xyz-n8nr.onrender.com/api/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
