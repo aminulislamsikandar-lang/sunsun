@@ -1,0 +1,24 @@
+# V52 Production Checklist
+
+- [ ] `npm install` succeeds
+- [ ] frontend production build succeeds
+- [ ] backend starts without errors
+- [ ] `/api/system/v52/health` returns healthy
+- [ ] JWT_SECRET is changed
+- [ ] CORS_ORIGIN is restricted
+- [ ] HTTPS is enabled at deployment/proxy
+- [ ] Admin default password changed
+- [ ] backup creation works
+- [ ] backup files are retained outside ephemeral deployment storage
+- [ ] restore test completed
+- [ ] Admin login works
+- [ ] Teacher login works
+- [ ] Student portal works
+- [ ] Parent portal works
+- [ ] Attendance works
+- [ ] Fees work
+- [ ] Exams/results work
+- [ ] Hostel works
+- [ ] notifications work
+- [ ] mobile UI smoke test completed
+- [ ] no real secrets committed to Git

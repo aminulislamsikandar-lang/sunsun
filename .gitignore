@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+uploads/
+*.log
+school.db
+server/school.db
+UPGRADE_BACKUP_*
+*.db
